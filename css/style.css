@@ -1,0 +1,12 @@
+/* Garante que as imagens ocupem todo o espaço dos cards */
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de hover nas imagens */
+.card-img-top:hover {
+    transform: scale(1.05);
+}
